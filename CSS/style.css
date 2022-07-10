@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #000000;
+    --secondary: #3C86AF;
+    --boxshadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+body{
+    font-family: Poppins, 'san-serif';
+    line-height: 1.7;
+    color: var(--primary);
+
+}
+
+.img{
+    width: 100%;
+}
+
+h1{
+    color: var(--secondary);
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+h2{
+    color: var(--secondary);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.navbar ul li a {
+    font-family: 'Poppins', serif;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    font-weight: 400;
+    text-align: right;
+}
+
+.navbar ul li a:hover{
+    color: var(--secondary);
+    font-weight:500;
+}
+
+
+
+.hero{
+    padding-top: 120px;
+    padding-top: 100px;
+}
+
+.Intro {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.btn {
+    background-color: var(--secondary);
+    border-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+.History{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: var(--secondary);
+}
+
+.card{
+    border: none;
+    background-color: var(--secondary);
+}
+
+.work{
+    padding-top: 120px;
+
+}
+
+.workcard {
+    position: relative;
+    overflow: hidden;
+}
+
+.workcard .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 20, 51, 0.8);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.workcard img {
+    transition: all 0.4s ease;   
+}
+
+.workcard:hover .overlay{
+    opacity: 1;
+}
+
+.workcard:hover img {
+    transform: scale(1.1);
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer{
+    background-color: var(--secondary);
+}
+
+.social-icons a i {
+    color:white;
+    font-size: 36px;
+    padding: 30px 30px;
+    margin:0;
+}
